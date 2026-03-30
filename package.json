@@ -2,6 +2,12 @@
   "name": "krishi-kisan",
   "private": true,
   "version": "0.1.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
   "scripts": {
     "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
     "dev:server": "npm --prefix server run dev",
